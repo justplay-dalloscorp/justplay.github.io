@@ -6,63 +6,246 @@
   <title>JustPlay — Empowering Sports Connections</title>
   <meta name="description" content="JustPlay is a smart and social sports platform that connects players, teams, and tournaments — because here, the star is you." />
   <link rel="icon" href="https://justplay.com.co/favicon.ico" type="image/x-icon" />
-  <style>
-    :root {
-      color-scheme: light dark;
-    }
-    body {
-      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      background: linear-gradient(145deg, #ffffff, #f3f3f3);
-      color: #222;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-      color: #111;
-    }
-    p {
-      max-width: 600px;
-      margin: 0.5rem auto 1.5rem;
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
-    a {
-      color: #0078ff;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      margin-top: 2rem;
-      font-size: 0.85rem;
-      color: #555;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <h1>JustPlay</h1>
-  <p>
-    The social sports platform that connects people, teams, and tournaments.  
-    <br />Play. Connect. Shine.
-  </p>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="JustPlay Logo" />
+        JustPlay
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" data-translate="nav.home">Home</a></li>
+        <li><a href="services.html" data-translate="nav.services">Services</a></li>
+        <li><a href="about.html" data-translate="nav.about">About</a></li>
+        <li><a href="contact.html" data-translate="nav.contact">Contact</a></li>
+        <li><a href="terms.html" data-translate="nav.terms">T&C</a></li>
+      </ul>
+      <div class="language-toggle">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="es">ES</button>
+      </div>
+      <button class="mobile-menu-toggle">☰</button>
+    </nav>
+  </header>
 
-  <p>
-    <a href="./terms.html">Terms of Service</a> | 
-    <a href="./privacy.html">Privacy Policy</a>
-  </p>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 data-translate="home.hero.title">Empowering Sports Connections</h1>
+      <p data-translate="home.hero.subtitle">The social sports platform that connects players, teams, and tournaments. Play. Connect. Shine.</p>
+      <div class="cta-buttons">
+        <a href="services.html" class="btn btn-primary" data-translate="home.hero.cta1">Explore Services</a>
+        <a href="contact.html" class="btn btn-secondary" data-translate="home.hero.cta2">Get Started</a>
+      </div>
+    </div>
+  </section>
 
-  <footer>
-    © 2025 JustPlay by DallosCorp. All rights reserved.
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-translate="home.features.title">Why Choose JustPlay?</h2>
+        <p data-translate="home.features.subtitle">Discover the features that make JustPlay the ultimate sports platform for players, teams, and organizers.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <img src="assets/images/feature1.png" alt="Event Management" />
+          <h3 data-translate="home.features.event.title">Event Management</h3>
+          <p data-translate="home.features.event.desc">Create, manage, and participate in sports events with ease. From casual matches to organized tournaments, connect with players who share your passion.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <img src="assets/images/feature2.png" alt="Team Building" />
+          <h3 data-translate="home.features.team.title">Team Building</h3>
+          <p data-translate="home.features.team.desc">Build and manage your sports teams with comprehensive member management, role assignments, and team statistics tracking.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <img src="assets/images/logo.png" alt="Tournament Organization" />
+          <h3 data-translate="home.features.tournament.title">Tournament Organization</h3>
+          <p data-translate="home.features.tournament.desc">Organize and participate in tournaments with structured brackets, match scheduling, and real-time results tracking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Services</h2>
+        <p>Comprehensive sports platform services designed to enhance your athletic experience and community connections.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <h3>Event Creation & Management</h3>
+          <p>Create and manage sports events with detailed information including location, date, time, and participant requirements.</p>
+          <ul class="service-features">
+            <li>Custom event details and requirements</li>
+            <li>Participant capacity management</li>
+            <li>Real-time event updates</li>
+            <li>Location-based event discovery</li>
+          </ul>
+          <a href="services.html" class="btn btn-primary">Learn More</a>
+        </div>
+        <div class="service-card fade-in">
+          <h3>Team Management</h3>
+          <p>Build and manage your sports teams with comprehensive member management and team coordination tools.</p>
+          <ul class="service-features">
+            <li>Member addition and removal</li>
+            <li>Role-based permissions</li>
+            <li>Team statistics and history</li>
+            <li>Multi-team membership support</li>
+          </ul>
+          <a href="services.html" class="btn btn-primary">Learn More</a>
+        </div>
+        <div class="service-card fade-in">
+          <h3>Tournament Organization</h3>
+          <p>Organize structured tournaments with bracket management, match scheduling, and comprehensive result tracking.</p>
+          <ul class="service-features">
+            <li>Bracket generation and management</li>
+            <li>Match scheduling and coordination</li>
+            <li>Result tracking and statistics</li>
+            <li>Public and private tournaments</li>
+          </ul>
+          <a href="services.html" class="btn btn-primary">Learn More</a>
+        </div>
+        <div class="service-card fade-in">
+          <h3>User Profiles & Authentication</h3>
+          <p>Secure user management with comprehensive profiles, authentication, and social features.</p>
+          <ul class="service-features">
+            <li>Secure authentication system</li>
+            <li>Comprehensive user profiles</li>
+            <li>Social media integration</li>
+            <li>Activity history and statistics</li>
+          </ul>
+          <a href="services.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About JustPlay</h2>
+        <p>Connecting the sports community through innovative technology and passionate development.</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Empowering Sports Communities</h3>
+          <p>JustPlay is a comprehensive sports platform designed to connect players, teams, and tournaments. Built with modern technology and a passion for sports, we provide the tools and community features needed to enhance your athletic experience.</p>
+          <p>Our platform supports multiple sports and activities, from casual pick-up games to organized tournaments. Whether you're a player looking to join events, a team captain managing your roster, or an organizer running tournaments, JustPlay has the features you need.</p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">1000+</span>
+              <span class="stat-label">Active Users</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Events Created</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Teams Formed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">25+</span>
+              <span class="stat-label">Tournaments</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="assets/images/hero.png" alt="JustPlay Platform" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Get In Touch</h2>
+        <p>Ready to join the JustPlay community? Contact us to learn more or get started today.</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Connect With Us</h3>
+          <p>Have questions about JustPlay? Want to learn more about our services? We're here to help you get the most out of your sports experience.</p>
+          <div class="contact-item">
+            <i>📧</i>
+            <span>info@justplay.com.co</span>
+          </div>
+          <div class="contact-item">
+            <i>🌐</i>
+            <span>justplay.com.co</span>
+          </div>
+          <div class="contact-item">
+            <i>🏢</i>
+            <span>DallosCorp</span>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>JustPlay</h4>
+          <p>The social sports platform that connects players, teams, and tournaments. Play. Connect. Shine.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Services</h4>
+          <p><a href="services.html">Event Management</a></p>
+          <p><a href="services.html">Team Building</a></p>
+          <p><a href="services.html">Tournament Organization</a></p>
+          <p><a href="services.html">User Profiles</a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Company</h4>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="terms.html">Terms & Conditions</a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <p>📧 info@justplay.com.co</p>
+          <p>🌐 justplay.com.co</p>
+          <p>🏢 DallosCorp</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 JustPlay by DallosCorp. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
+
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

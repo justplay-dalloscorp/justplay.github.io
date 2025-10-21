@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — JustPlay</title>
+  <meta name="description" content="Get in touch with JustPlay. Contact us for support, business inquiries, or to learn more about our sports platform services." />
+  <link rel="icon" href="https://justplay.com.co/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="JustPlay Logo" />
+        JustPlay
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html" data-translate="nav.home">Home</a></li>
+        <li><a href="services.html" data-translate="nav.services">Services</a></li>
+        <li><a href="about.html" data-translate="nav.about">About</a></li>
+        <li><a href="contact.html" class="active" data-translate="nav.contact">Contact</a></li>
+        <li><a href="terms.html" data-translate="nav.terms">T&C</a></li>
+      </ul>
+      <div class="language-toggle">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="es">ES</button>
+      </div>
+      <button class="mobile-menu-toggle">☰</button>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1 data-translate="contact.title">Contact Us</h1>
+      <p data-translate="contact.subtitle">Ready to join the JustPlay community? Contact us to learn more or get started today.</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="page-content">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p>Have questions about JustPlay? Want to learn more about our services? We're here to help you get the most out of your sports experience. Whether you're a player, team captain, or event organizer, we'd love to hear from you.</p>
+          
+          <div class="contact-item">
+            <i>📧</i>
+            <div>
+              <strong>Email</strong><br>
+              <a href="mailto:info@justplay.com.co">info@justplay.com.co</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i>🌐</i>
+            <div>
+              <strong>Website</strong><br>
+              <a href="https://justplay.com.co" target="_blank">justplay.com.co</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i>🏢</i>
+            <div>
+              <strong>Company</strong><br>
+              DallosCorp
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i>⏰</i>
+            <div>
+              <strong>Response Time</strong><br>
+              We typically respond within 24 hours
+            </div>
+          </div>
+
+          <h3 style="margin-top: 40px;">What We Can Help With</h3>
+          <ul>
+            <li>General questions about JustPlay services</li>
+            <li>Technical support and troubleshooting</li>
+            <li>Business partnerships and collaborations</li>
+            <li>Feature requests and suggestions</li>
+            <li>Account setup and onboarding</li>
+            <li>API integration and development support</li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <h3 data-translate="contact.info.title">Send Us a Message</h3>
+          <div class="form-group">
+            <label for="name" data-translate="contact.form.name">Full Name *</label>
+            <input type="text" id="name" name="name" required data-translate="contact.form.name" placeholder="Enter your full name" />
+          </div>
+          
+          <div class="form-group">
+            <label for="email" data-translate="contact.form.email">Email Address *</label>
+            <input type="email" id="email" name="email" required data-translate="contact.form.email" placeholder="Enter your email address" />
+          </div>
+          
+          <div class="form-group">
+            <label for="phone" data-translate="contact.form.phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" data-translate="contact.form.phone" placeholder="Enter your phone number (optional)" />
+          </div>
+          
+          <div class="form-group">
+            <label for="subject" data-translate="contact.form.subject">Subject *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="support">Technical Support</option>
+              <option value="business">Business Partnership</option>
+              <option value="feature">Feature Request</option>
+              <option value="account">Account Issues</option>
+              <option value="api">API Integration</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message" data-translate="contact.form.message">Message *</label>
+            <textarea id="message" name="message" required data-translate="contact.form.message" placeholder="Tell us how we can help you..." rows="6"></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="newsletter" value="yes" />
+              I would like to receive updates about JustPlay services and features
+            </label>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">
+            <span class="btn-text" data-translate="contact.form.submit">Send Message</span>
+            <span class="loading" style="display: none;"></span>
+          </button>
+        </form>
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="content-section" style="margin-top: 80px;">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="faq-item" style="margin-bottom: 30px; padding: 20px; background: var(--gray-color); border-radius: var(--border-radius);">
+          <h3>How do I get started with JustPlay?</h3>
+          <p>Getting started with JustPlay is easy! Simply contact us through the form above or email us at info@justplay.com.co. We'll help you set up your account and guide you through the platform features.</p>
+        </div>
+
+        <div class="faq-item" style="margin-bottom: 30px; padding: 20px; background: var(--gray-color); border-radius: var(--border-radius);">
+          <h3>What sports does JustPlay support?</h3>
+          <p>JustPlay is designed to support a wide variety of sports and activities. Our platform is flexible and can accommodate most team and individual sports, from football and basketball to tennis and volleyball.</p>
+        </div>
+
+        <div class="faq-item" style="margin-bottom: 30px; padding: 20px; background: var(--gray-color); border-radius: var(--border-radius);">
+          <h3>Is JustPlay free to use?</h3>
+          <p>We offer both free and premium features. Contact us to learn more about our pricing plans and what's included in each tier.</p>
+        </div>
+
+        <div class="faq-item" style="margin-bottom: 30px; padding: 20px; background: var(--gray-color); border-radius: var(--border-radius);">
+          <h3>Can I integrate JustPlay with my existing systems?</h3>
+          <p>Yes! JustPlay provides comprehensive APIs for integration with existing systems. Our development team can help you with custom integrations and technical support.</p>
+        </div>
+
+        <div class="faq-item" style="margin-bottom: 30px; padding: 20px; background: var(--gray-color); border-radius: var(--border-radius);">
+          <h3>How secure is my data on JustPlay?</h3>
+          <p>Security is our top priority. We use industry-standard encryption, secure authentication systems, and follow best practices for data protection. Your information is safe with us.</p>
+        </div>
+      </div>
+
+      <!-- Business Hours -->
+      <div class="content-section" style="text-align: center; background: var(--gray-color); padding: 40px; border-radius: var(--border-radius); margin-top: 60px;">
+        <h2>Business Hours</h2>
+        <p>We're here to help you during the following hours:</p>
+        <div style="margin-top: 20px;">
+          <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM (Local Time)</p>
+          <p><strong>Saturday:</strong> 10:00 AM - 4:00 PM (Local Time)</p>
+          <p><strong>Sunday:</strong> Closed</p>
+        </div>
+        <p style="margin-top: 20px; font-style: italic;">For urgent technical issues, please mark your message as "Technical Support" and we'll prioritize your request.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>JustPlay</h4>
+          <p>The social sports platform that connects players, teams, and tournaments. Play. Connect. Shine.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Services</h4>
+          <p><a href="services.html">Event Management</a></p>
+          <p><a href="services.html">Team Building</a></p>
+          <p><a href="services.html">Tournament Organization</a></p>
+          <p><a href="services.html">User Profiles</a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Company</h4>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="terms.html">Terms & Conditions</a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <p>📧 info@justplay.com.co</p>
+          <p>🌐 justplay.com.co</p>
+          <p>🏢 DallosCorp</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 JustPlay by DallosCorp. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/language.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
