@@ -677,6 +677,29 @@ body {
     right: 10px;
   }
 
+  /* Services Page Responsive Styles */
+  .content-section[style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+
+  .content-section[style*="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  .content-section[style*="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  .content-section[style*="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  .content-section[style*="display: flex"] {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
   .hero h1 {
     font-size: 2.5rem;
   }
