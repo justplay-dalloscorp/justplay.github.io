@@ -54,6 +54,22 @@ class LanguageManager {
                 'home.footer.connect': 'Connect',
                 'home.footer.copyright': '© 2025 JustPlay by DallosCorp. All rights reserved.',
                 
+                // Services Page
+                'services.title': 'Our Epic Features! 🔥',
+                'services.subtitle': 'Everything you need to dominate the sports scene and show the world what you\'re made of!',
+                'services.events.title': 'Events - Where the Magic Happens!',
+                'services.events.subtitle': 'Create epic sports events in seconds! From casual pickup games to championship tournaments - find your perfect match and show off your skills! No more complicated setups or boring forms. Just pure, adrenaline-pumping action!',
+                'services.teams.title': 'Teams - Build Your Dream Squad!',
+                'services.teams.subtitle': 'Assemble your ultimate team! Add players, assign roles, track stats, and dominate together. Your crew, your rules, your victory!',
+                'services.tournaments.title': 'Tournaments - Rise to the Top!',
+                'services.tournaments.subtitle': 'Organize or join tournaments that matter! Automatic brackets, live updates, and epic showdowns await! Ready to claim your throne? This is where legends are made and champions are crowned!',
+                'services.profile.title': 'Profile - You\'re the Rock Star!',
+                'services.profile.subtitle': 'Showcase your talent like never before! Your profile is your stage - display achievements, skills, and let everyone know why you\'re legendary! This is where you become the star you were meant to be!',
+                'services.chat.title': 'Chat - Simple & Powerful!',
+                'services.chat.subtitle': 'Forget WhatsApp and complicated apps! Our chat is super simple, lightning fast, and gets things done! Connect, coordinate, and conquer together without the hassle of multiple apps!',
+                'services.security.title': 'Security - Rock Solid!',
+                'services.security.subtitle': 'Your data is safe with us! Advanced security features keep your account and information protected 24/7! We take your privacy seriously so you can focus on what matters - playing and winning!',
+                
                 // Common
                 'common.learn_more': 'Learn More',
                 'common.get_started': 'Get Started',
@@ -154,6 +170,22 @@ class LanguageManager {
                 'home.footer.company': 'Empresa',
                 'home.footer.connect': 'Conectar',
                 'home.footer.copyright': '© 2025 JustPlay por DallosCorp. Todos los derechos reservados.',
+                
+                // Services Page
+                'services.title': '¡Nuestras Características Épicas! 🔥',
+                'services.subtitle': '¡Todo lo que necesitas para dominar la escena deportiva y mostrarle al mundo de qué estás hecho!',
+                'services.events.title': '¡Eventos - Donde Sucede la Magia!',
+                'services.events.subtitle': '¡Crea eventos deportivos épicos en segundos! Desde juegos casuales hasta torneos de campeonato - encuentra tu pareja perfecta y muestra tus habilidades! No más configuraciones complicadas o formularios aburridos. ¡Solo pura acción llena de adrenalina!',
+                'services.teams.title': '¡Equipos - Construye tu Escuadrón de Ensueño!',
+                'services.teams.subtitle': '¡Ensambla tu equipo definitivo! Agrega jugadores, asigna roles, rastrea estadísticas y domina juntos. Tu crew, tus reglas, tu victoria!',
+                'services.tournaments.title': '¡Torneos - Sube a la Cima!',
+                'services.tournaments.subtitle': '¡Organiza o únete a torneos que importan! Llaves automáticas, actualizaciones en vivo y enfrentamientos épicos te esperan! ¿Listo para reclamar tu trono? ¡Aquí es donde se hacen las leyendas y se coronan los campeones!',
+                'services.profile.title': '¡Perfil - Eres la Estrella de Rock!',
+                'services.profile.subtitle': '¡Muestra tu talento como nunca antes! Tu perfil es tu escenario - exhibe logros, habilidades y deja que todos sepan por qué eres legendario! ¡Aquí es donde te conviertes en la estrella que estabas destinado a ser!',
+                'services.chat.title': '¡Chat - Simple y Poderoso!',
+                'services.chat.subtitle': '¡Olvida WhatsApp y apps complicadas! Nuestro chat es súper simple, súper rápido y hace las cosas! ¡Conecta, coordina y conquista juntos sin la molestia de múltiples apps!',
+                'services.security.title': '¡Seguridad - Sólida como una Roca!',
+                'services.security.subtitle': '¡Tus datos están seguros con nosotros! Características de seguridad avanzadas mantienen tu cuenta e información protegidas 24/7! Nos tomamos tu privacidad en serio para que puedas enfocarte en lo que importa - ¡jugar y ganar!',
                 
                 // Common
                 'common.learn_more': 'Aprender Más',
