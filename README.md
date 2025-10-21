@@ -15,6 +15,9 @@ JustPlay is a comprehensive sports platform designed to connect players, teams, 
 - **Accessibility**: Built with accessibility best practices
 - **Bilingual Support**: Full English and Spanish language switching
 - **Language Persistence**: Remembers user's language preference
+- **Interactive Carousel**: Dynamic image carousel showcasing platform features
+- **Modern Color Scheme**: Brand colors inspired by JustPlay design slides
+- **Enhanced Animations**: Smooth transitions and hover effects
 
 ## Pages
 
@@ -30,7 +33,26 @@ JustPlay is a comprehensive sports platform designed to connect players, teams, 
 - **CSS3**: Custom CSS with CSS Grid, Flexbox, and modern properties
 - **JavaScript**: Vanilla JavaScript for interactivity and animations
 - **Language System**: Custom bilingual translation system with localStorage persistence
+- **Carousel Component**: Custom carousel with touch/swipe support and auto-play
 - **GitHub Pages**: Hosted on GitHub Pages for reliable, free hosting
+
+## Design Features
+
+### Color Scheme
+The website uses a modern color palette inspired by JustPlay's brand slides:
+- **Primary Orange**: #FF5227 (Modern, energetic)
+- **Secondary White**: #FFFFFF (Clean, professional)
+- **Accent Light Gray**: #F2F2F2 (Subtle, elegant)
+- **Accent Medium Gray**: #595959 (Balanced, sophisticated)
+- **Deep Gray**: #262626 (Strong, trustworthy)
+
+### Interactive Carousel
+- **5 Feature Slides**: Showcasing different platform capabilities
+- **Auto-play**: Automatic slide transitions every 5 seconds
+- **Manual Controls**: Previous/Next buttons and dot indicators
+- **Touch Support**: Swipe gestures for mobile devices
+- **Keyboard Navigation**: Arrow key support for accessibility
+- **Pause on Hover**: User-friendly interaction
 
 ## Language Support
 

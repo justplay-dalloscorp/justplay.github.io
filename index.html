@@ -43,28 +43,65 @@
     </div>
   </section>
 
-  <!-- Features Section -->
+  <!-- Carousel Section -->
   <section class="features">
     <div class="container">
       <div class="section-title">
         <h2 data-translate="home.features.title">Why Choose JustPlay?</h2>
         <p data-translate="home.features.subtitle">Discover the features that make JustPlay the ultimate sports platform for players, teams, and organizers.</p>
       </div>
-      <div class="features-grid">
-        <div class="feature-card fade-in">
-          <img src="assets/images/feature1.png" alt="Event Management" />
-          <h3 data-translate="home.features.event.title">Event Management</h3>
-          <p data-translate="home.features.event.desc">Create, manage, and participate in sports events with ease. From casual matches to organized tournaments, connect with players who share your passion.</p>
+      
+      <!-- Carousel -->
+      <div class="carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide active">
+            <img src="assets/images/carousel1.png" alt="JustPlay Platform Features" />
+            <div class="carousel-content">
+              <h3 data-translate="home.features.event.title">Event Management</h3>
+              <p data-translate="home.features.event.desc">Create, manage, and participate in sports events with ease. From casual matches to organized tournaments, connect with players who share your passion.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/images/carousel2.png" alt="Team Building Features" />
+            <div class="carousel-content">
+              <h3 data-translate="home.features.team.title">Team Building</h3>
+              <p data-translate="home.features.team.desc">Build and manage your sports teams with comprehensive member management, role assignments, and team statistics tracking.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/images/carousel3.png" alt="Tournament Organization" />
+            <div class="carousel-content">
+              <h3 data-translate="home.features.tournament.title">Tournament Organization</h3>
+              <p data-translate="home.features.tournament.desc">Organize and participate in tournaments with structured brackets, match scheduling, and real-time results tracking.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/images/carousel4.png" alt="User Profiles" />
+            <div class="carousel-content">
+              <h3>User Profiles & Authentication</h3>
+              <p>Secure user management with comprehensive profiles, authentication, and social features for the complete sports experience.</p>
+            </div>
+          </div>
+          <div class="carousel-slide">
+            <img src="assets/images/carousel5.png" alt="Community Features" />
+            <div class="carousel-content">
+              <h3>Community & Social</h3>
+              <p>Connect with like-minded athletes, share achievements, and build lasting friendships through sports.</p>
+            </div>
+          </div>
         </div>
-        <div class="feature-card fade-in">
-          <img src="assets/images/feature2.png" alt="Team Building" />
-          <h3 data-translate="home.features.team.title">Team Building</h3>
-          <p data-translate="home.features.team.desc">Build and manage your sports teams with comprehensive member management, role assignments, and team statistics tracking.</p>
-        </div>
-        <div class="feature-card fade-in">
-          <img src="assets/images/logo.png" alt="Tournament Organization" />
-          <h3 data-translate="home.features.tournament.title">Tournament Organization</h3>
-          <p data-translate="home.features.tournament.desc">Organize and participate in tournaments with structured brackets, match scheduling, and real-time results tracking.</p>
+        
+        <!-- Carousel Controls -->
+        <button class="carousel-controls carousel-prev">‹</button>
+        <button class="carousel-controls carousel-next">›</button>
+        
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button class="carousel-indicator active"></button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
+          <button class="carousel-indicator"></button>
         </div>
       </div>
     </div>
@@ -246,6 +283,7 @@
   </footer>
 
   <script src="assets/js/language.js"></script>
+  <script src="assets/js/carousel.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
