@@ -33,3 +33,5 @@ Find: "?v=1.0.0"
 Replace: "?v=X.X.X" (where X.X.X is the new version)
 
 - 1.0.1 - 2025-10-22 - Version update
+
+- 1.0.1 - 2025-10-22 - Version update
