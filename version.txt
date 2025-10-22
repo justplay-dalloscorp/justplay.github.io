@@ -1,7 +1,7 @@
 JustPlay Website Version Management
 ====================================
 
-Current Version: 1.0.0
+Current Version: 1.0.1
 
 Version History:
 - 1.0.0 - Initial version with all features implemented
@@ -31,3 +31,5 @@ Files to update when changing version:
 Search and replace pattern:
 Find: "?v=1.0.0"
 Replace: "?v=X.X.X" (where X.X.X is the new version)
+
+- 1.0.1 - 2025-10-22 - Version update

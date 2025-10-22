@@ -394,7 +394,9 @@ class LanguageManager {
                 } else if (element.tagName === 'TEXTAREA') {
                     element.placeholder = translation;
                 } else {
-                    element.textContent = translation;
+                    // Use innerHTML for proper HTML rendering, but sanitize for security
+                    const sanitizedTranslation = this.sanitizeHTML(translation);
+                    element.innerHTML = sanitizedTranslation;
                 }
             }
         });
@@ -449,6 +451,19 @@ class LanguageManager {
 
     translate(key) {
         return this.translations[this.currentLanguage][key] || key;
+    }
+
+    sanitizeHTML(str) {
+        // Simple HTML sanitizer that only allows specific tags
+        const allowedTags = ['strong', 'em', 'span', 'br'];
+        const tagRegex = /<\/?([a-zA-Z][a-zA-Z0-9]*)\b[^<>]*>/g;
+        
+        return str.replace(tagRegex, (match, tagName) => {
+            if (allowedTags.includes(tagName.toLowerCase())) {
+                return match;
+            }
+            return '';
+        });
     }
 }
 
