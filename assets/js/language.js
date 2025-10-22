@@ -24,11 +24,11 @@ class LanguageManager {
                 
                 // Home Page
                 'home.hero.title': 'Where Every Passion Becomes a Rock Star! 🌟',
-                'home.hero.subtitle': 'JustPlay is THE platform where ANYONE can showcase their talent! Whether you\'re into sports, music, art, gaming, or any passion - this is YOUR space to shine! Forget complicated apps - we make everything simple, fun, and epic. Your time to be special is NOW!',
+                'home.hero.subtitle': 'JustPlay is the platform where anyone can showcase their talent! Whether you\'re into sports, music, art, gaming, or any passion - this is your space to shine! Forget complicated apps - we make everything simple, fun, and epic. Your time to be special is now!',
                 'home.hero.cta1': 'Show Your Skills',
                 'home.hero.cta2': 'Join the Game',
                 'home.features.title': 'Why JustPlay is EPIC! 🚀',
-                'home.features.subtitle': 'Check out these game-changing features that make JustPlay the coolest platform for ALL passions ever! Whether you\'re an athlete, artist, gamer, or creator - this is YOUR space to shine! No boring stuff here - just pure awesomeness!',
+                'home.features.subtitle': 'Check out these game-changing features that make JustPlay the coolest platform for all passions ever! Whether you\'re an athlete, artist, gamer, or creator - this is your space to shine! No boring stuff here - just pure awesomeness!',
                 'home.features.event.title': 'Event Management',
                 'home.features.event.desc': 'Create, manage, and participate in sports events with ease. From casual matches to organized tournaments, connect with players who share your passion.',
                 'home.features.team.title': 'Team Building',
@@ -52,13 +52,13 @@ class LanguageManager {
                 'home.footer.services': 'Services',
                 'home.footer.company': 'Company',
                 'home.footer.connect': 'Connect',
-                'home.footer.copyright': '© 2025 JustPlay by DallosCorp. All rights reserved.',
+                'home.footer.copyright': '© 2025 JustPlay by Dallos Corp. All rights reserved.',
                 
                 // Services Page
                 'services.title': 'Our Epic Features! 🔥',
-                'services.subtitle': 'Everything you need to dominate YOUR passion and show the world what you\'re made of! Whether you\'re into sports, art, music, gaming, or any talent - this is YOUR platform!',
+                'services.subtitle': 'Everything you need to dominate your passion and show the world what you\'re made of! Whether you\'re into sports, art, music, gaming, or any talent - this is your platform!',
                 'services.events.title': 'Events - Where All Passions Unite!',
-                'services.events.subtitle': 'Create epic events for ANY passion in seconds! From art exhibitions to music jams, gaming tournaments to cultural festivals - find your community and show off your talent! No more complicated setups or boring forms. Just pure, passion-driven action!',
+                'services.events.subtitle': 'Create epic events for any passion in seconds! From art exhibitions to music jams, gaming tournaments to cultural festivals - find your community and show off your talent! No more complicated setups or boring forms. Just pure, passion-driven action!',
                 'services.teams.title': 'Communities - Build Your Dream Crew!',
                 'services.teams.subtitle': 'Assemble your ultimate community! Add members, assign roles, track achievements, and dominate together. Your crew, your rules, your victory!',
                 'services.tournaments.title': 'Competitions - Rise to the Top!',
@@ -169,13 +169,13 @@ class LanguageManager {
                 'home.footer.services': 'Servicios',
                 'home.footer.company': 'Empresa',
                 'home.footer.connect': 'Conectar',
-                'home.footer.copyright': '© 2025 JustPlay por DallosCorp. Todos los derechos reservados.',
+                'home.footer.copyright': '© 2025 JustPlay por Dallos Corp. Todos los derechos reservados.',
                 
                 // Services Page
                 'services.title': '¡Nuestras Características Épicas! 🔥',
-                'services.subtitle': '¡Todo lo que necesitas para dominar TU pasión y mostrarle al mundo de qué estás hecho! Ya seas del deporte, arte, música, gaming, o cualquier talento - ¡esta es TU plataforma!',
+                'services.subtitle': '¡Todo lo que necesitas para dominar tu pasión y mostrarle al mundo de qué estás hecho! Ya seas del deporte, arte, música, gaming, o cualquier talento - ¡esta es tu plataforma!',
                 'services.events.title': '¡Eventos - Donde Todas las Pasiones se Unen!',
-                'services.events.subtitle': '¡Crea eventos épicos para CUALQUIER pasión en segundos! Desde exposiciones de arte hasta jams de música, torneos de gaming hasta festivales culturales - encuentra tu comunidad y muestra tu talento! No más configuraciones complicadas o formularios aburridos. ¡Solo pura acción impulsada por la pasión!',
+                'services.events.subtitle': '¡Crea eventos épicos para cualquier pasión en segundos! Desde exposiciones de arte hasta jams de música, torneos de gaming hasta festivales culturales - encuentra tu comunidad y muestra tu talento! No más configuraciones complicadas o formularios aburridos. ¡Solo pura acción impulsada por la pasión!',
                 'services.teams.title': '¡Comunidades - Construye tu Crew de Ensueño!',
                 'services.teams.subtitle': '¡Ensambla tu comunidad definitiva! Agrega miembros, asigna roles, rastrea logros y domina juntos. Tu crew, tus reglas, tu victoria!',
                 'services.tournaments.title': '¡Competencias - Sube a la Cima!',

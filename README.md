@@ -128,8 +128,8 @@ For questions about the website or JustPlay services:
 
 - **Email**: info@justplay.com.co
 - **Website**: justplay.com.co
-- **Company**: DallosCorp
+- **Company**: [Dallos Corp](https://dalloscorp.com)
 
 ## License
 
-© 2025 JustPlay by DallosCorp. All rights reserved.
+© 2025 JustPlay by [Dallos Corp](https://dalloscorp.com). All rights reserved.
