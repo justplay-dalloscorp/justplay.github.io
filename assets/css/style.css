@@ -677,28 +677,52 @@ body {
     right: 10px;
   }
 
-  /* Services Page Responsive Styles */
-  .content-section[style*="grid-template-columns: 1fr 1fr"] {
-    grid-template-columns: 1fr !important;
-    gap: 30px !important;
-  }
+/* Services Page Responsive Styles */
+.content-section[style*="grid-template-columns: 1fr 1fr"] {
+  grid-template-columns: 1fr !important;
+  gap: 30px !important;
+}
 
-  .content-section[style*="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))"] {
+.content-section[style*="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))"] {
+  grid-template-columns: 1fr !important;
+}
+
+.content-section[style*="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))"] {
+  grid-template-columns: 1fr !important;
+}
+
+.content-section[style*="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))"] {
+  grid-template-columns: 1fr !important;
+}
+
+.content-section[style*="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))"] {
+  grid-template-columns: 1fr !important;
+}
+
+.content-section[style*="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))"] {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.content-section[style*="display: flex"] {
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* About Page Responsive Styles */
+@media (max-width: 768px) {
+  .content-section[style*="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))"] {
     grid-template-columns: 1fr !important;
   }
-
-  .content-section[style*="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))"] {
-    grid-template-columns: 1fr !important;
-  }
-
-  .content-section[style*="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))"] {
-    grid-template-columns: 1fr !important;
-  }
-
-  .content-section[style*="display: flex"] {
+  
+  .content-section[style*="display: flex; gap: 20px; justify-content: center"] {
     flex-direction: column !important;
     align-items: center !important;
   }
+  
+  .content-section[style*="display: flex; flex-wrap: wrap; gap: 15px"] {
+    justify-content: center !important;
+  }
+}
 
   .hero h1 {
     font-size: 2.5rem;
