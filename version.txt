@@ -1,0 +1,33 @@
+JustPlay Website Version Management
+====================================
+
+Current Version: 1.0.0
+
+Version History:
+- 1.0.0 - Initial version with all features implemented
+
+How to update versions:
+1. Update the version number in this file
+2. Update all HTML files with the new version parameter
+3. Test the website to ensure everything works
+
+Version Format: MAJOR.MINOR.PATCH
+- MAJOR: Breaking changes or major feature additions
+- MINOR: New features or significant improvements
+- PATCH: Bug fixes or small improvements
+
+Next version suggestions:
+- 1.0.1 - Bug fixes
+- 1.1.0 - New features
+- 2.0.0 - Major redesign or breaking changes
+
+Files to update when changing version:
+- index.html
+- services.html
+- about.html
+- contact.html
+- terms.html
+
+Search and replace pattern:
+Find: "?v=1.0.0"
+Replace: "?v=X.X.X" (where X.X.X is the new version)
