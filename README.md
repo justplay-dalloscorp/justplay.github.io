@@ -1,10 +1,10 @@
 # JustPlay Website
 
-The official website for JustPlay - the social sports platform that connects players, teams, and tournaments.
+The official website for JustPlay - the platform where EVERYONE becomes a rock star! Connect with passionate communities, showcase your talent, and shine in whatever you love!
 
 ## About JustPlay
 
-JustPlay is THE platform where every player becomes a rock star! 🌟 We're not just another app - we're the revolution that's changing how young athletes connect, compete, and shine! Built with modern technology and a passion for sports, we make everything simple, fun, and epic. Your time to shine is NOW!
+JustPlay is THE platform where EVERYONE becomes a rock star! 🌟 We're not just another app - we're the revolution that's changing how passionate people connect, compete, and shine! Whether you're into sports, art, music, gaming, or any passion - this is YOUR space to showcase your talent! Built with modern technology and a passion for communities, we make everything simple, fun, and epic. Your time to be special is NOW!
 
 ## Website Features
 

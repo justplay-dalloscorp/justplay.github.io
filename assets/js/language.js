@@ -23,12 +23,12 @@ class LanguageManager {
                 'nav.terms': 'T&C',
                 
                 // Home Page
-                'home.hero.title': 'Where Every Player Becomes a Rock Star! 🌟',
-                'home.hero.subtitle': 'JustPlay is THE platform to expose your talent! Forget complicated apps - we make everything simple, fun, and epic. Your time to shine is NOW!',
+                'home.hero.title': 'Where Every Passion Becomes a Rock Star! 🌟',
+                'home.hero.subtitle': 'JustPlay is THE platform where ANYONE can showcase their talent! Whether you\'re into sports, music, art, gaming, or any passion - this is YOUR space to shine! Forget complicated apps - we make everything simple, fun, and epic. Your time to be special is NOW!',
                 'home.hero.cta1': 'Show Your Skills',
                 'home.hero.cta2': 'Join the Game',
                 'home.features.title': 'Why JustPlay is EPIC! 🚀',
-                'home.features.subtitle': 'Check out these game-changing features that make JustPlay the coolest sports platform ever! No boring stuff here - just pure awesomeness!',
+                'home.features.subtitle': 'Check out these game-changing features that make JustPlay the coolest platform for ALL passions ever! Whether you\'re an athlete, artist, gamer, or creator - this is YOUR space to shine! No boring stuff here - just pure awesomeness!',
                 'home.features.event.title': 'Event Management',
                 'home.features.event.desc': 'Create, manage, and participate in sports events with ease. From casual matches to organized tournaments, connect with players who share your passion.',
                 'home.features.team.title': 'Team Building',
@@ -140,12 +140,12 @@ class LanguageManager {
                 'nav.terms': 'Términos',
                 
                 // Home Page
-                'home.hero.title': '¡Donde Cada Jugador se Convierte en una Estrella! 🌟',
-                'home.hero.subtitle': '¡JustPlay es LA plataforma para exponer tu talento! Olvida las apps complicadas - hacemos todo simple, divertido y épico. ¡Tu momento de brillar es AHORA!',
+                'home.hero.title': '¡Donde Cada Pasión se Convierte en una Estrella! 🌟',
+                'home.hero.subtitle': '¡JustPlay es LA plataforma donde CUALQUIERA puede mostrar su talento! Ya sea que te guste el deporte, música, arte, gaming, o cualquier pasión - ¡este es TU espacio para brillar! Olvida las apps complicadas - hacemos todo simple, divertido y épico. ¡Tu momento de ser especial es AHORA!',
                 'home.hero.cta1': 'Muestra tus Habilidades',
                 'home.hero.cta2': 'Únete al Juego',
                 'home.features.title': '¡Por qué JustPlay es ÉPICO! 🚀',
-                'home.features.subtitle': '¡Mira estas características que cambian el juego y hacen de JustPlay la plataforma deportiva más genial! ¡Nada aburrido aquí - solo pura genialidad!',
+                'home.features.subtitle': '¡Mira estas características que cambian el juego y hacen de JustPlay la plataforma más genial para TODAS las pasiones! Ya seas atleta, artista, gamer, o creador - ¡este es TU espacio para brillar! ¡Nada aburrido aquí - solo pura genialidad!',
                 'home.features.event.title': 'Gestión de Eventos',
                 'home.features.event.desc': 'Crea, gestiona y participa en eventos deportivos con facilidad. Desde partidos casuales hasta torneos organizados, conecta con jugadores que comparten tu pasión.',
                 'home.features.team.title': 'Construcción de Equipos',
